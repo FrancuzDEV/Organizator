@@ -1,0 +1,53 @@
+.box {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.line {
+    width: 50%;
+    margin: 2px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #770fff;
+}
+
+button[type="submit"] {
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    width: 90px;
+    height: 30px;
+    background-color: #770fff;
+}
+input[type='text'] {
+    background-color: #fff;
+    border: none;
+    color: black;
+    border-bottom: 2px solid #770fff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #870fff; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #770fff; 
+  }
